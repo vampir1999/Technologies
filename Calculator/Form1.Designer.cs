@@ -331,7 +331,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(436, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 17);
+            this.label1.Size = new System.Drawing.Size(73, 17);
             this.label1.TabIndex = 32;
             this.label1.Text = "Status bar";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -346,10 +346,10 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 22);
+            this.textBox2.Location = new System.Drawing.Point(12, 25);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(318, 93);
+            this.textBox2.Size = new System.Drawing.Size(318, 90);
             this.textBox2.TabIndex = 34;
             // 
             // Form1
