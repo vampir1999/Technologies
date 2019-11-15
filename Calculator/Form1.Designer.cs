@@ -60,7 +60,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -353,21 +354,31 @@
             this.textBox2.Size = new System.Drawing.Size(318, 90);
             this.textBox2.TabIndex = 34;
             // 
-            // comboBox1
+            // button30
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(12, -5);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 35;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.button30.Location = new System.Drawing.Point(12, -4);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(75, 23);
+            this.button30.TabIndex = 35;
+            this.button30.Text = "Load";
+            this.button30.UseVisualStyleBackColor = true;
+            // 
+            // button31
+            // 
+            this.button31.Location = new System.Drawing.Point(93, -4);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(75, 23);
+            this.button31.TabIndex = 36;
+            this.button31.Text = "Save";
+            this.button31.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 559);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.button31);
+            this.Controls.Add(this.button30);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
@@ -442,7 +453,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button30;
+        private System.Windows.Forms.Button button31;
     }
 }
 
